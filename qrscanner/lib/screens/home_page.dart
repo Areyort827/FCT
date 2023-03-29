@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:qrscanner/providers/db_provider.dart';
 import 'package:qrscanner/providers/ui_provider.dart';
 import 'package:qrscanner/screens/direcciones_page.dart';
 import 'package:qrscanner/widgets/custom_nagitatorbar.dart';
@@ -36,6 +37,9 @@ class _HomePageBody extends StatelessWidget {
     final uiProvider = Provider.of<UiProvider>(context);
 
     final currentIndex = uiProvider.selectedMenuOpt;
+
+    // Leer la base de datos
+    DBProvider.db.database;
 
     // Cambiar para mostrar la pagina respectiva
     switch (currentIndex) {
