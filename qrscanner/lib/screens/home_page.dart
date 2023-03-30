@@ -39,13 +39,13 @@ class _HomePageBody extends StatelessWidget {
     final currentIndex = uiProvider.selectedMenuOpt;
 
     // Leer la base de datos
-    DBProvider.db.database;
+    // DBProvider.db.database;
 
     // Cambiar para mostrar la pagina respectiva
     switch (currentIndex) {
       case 0:
         return MapasPage();
-        break;
+
       case 1:
         return DireccionesPage();
 
