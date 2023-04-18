@@ -13,9 +13,12 @@ class DashboardItemView extends StackedView {
   @override
   Widget builder(
       BuildContext context, ChangeNotifier viewModel, Widget? child) {
-    return RadialGauge();
+    return Container(
+      child: RadialGauge(),
+    );
   }
 
   @override
-  ChangeNotifier viewModelBuilder(BuildContext context) => DashboardItemViewModel();
+  ChangeNotifier viewModelBuilder(BuildContext context) =>
+      DashboardItemViewModel();
 }

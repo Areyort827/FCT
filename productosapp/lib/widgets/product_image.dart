@@ -7,8 +7,13 @@ class ProductImage extends StatelessWidget {
       padding: EdgeInsets.only(left: 10, right: 10, top: 10),
       child: Container(
         decoration: _builBoxDecoration(),
+        width: 450,
+        //child: FadeInImage(
+
+        //image: NetworkImage(url),
       ),
     );
+    //);
   }
 
   BoxDecoration _builBoxDecoration() => BoxDecoration(

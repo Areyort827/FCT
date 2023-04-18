@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:niveles_formacion/data/model/dashboard_panel_item_level/dashboard_panel_item_level.dart';
 import 'package:niveles_formacion/view/dashboard/dashboard_view.dart';
 
 void main() {
