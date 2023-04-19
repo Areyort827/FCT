@@ -7,9 +7,9 @@ class RadialGauge extends DashboardPanelItem {
       {required super.width,
       required super.height,
       required super.identifier,
-      required super.panelOptions});
+      required super.panelOptions,
+      required super.widget});
 
-  @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(

@@ -1,4 +1,5 @@
 import 'package:dashboard/dashboard.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:niveles_formacion/data/model/dashboard_panel_item/dashboard_panel_item_options.dart';
 
 /// A [DashboardItem] is a widget that can be added to a [DashboardView].
@@ -10,7 +11,9 @@ abstract class DashboardPanelItem extends DashboardItem {
       {required super.width,
       required super.height,
       required super.identifier,
-      required this.panelOptions});
+      required this.panelOptions,
+      required this.widget});
 
   DashboardPanelItemOptions panelOptions;
+  Widget? widget;
 }

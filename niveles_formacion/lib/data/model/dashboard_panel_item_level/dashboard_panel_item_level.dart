@@ -5,5 +5,6 @@ class DashboardPanelItemLevel extends DashboardPanelItem {
       {required super.width,
       required super.height,
       required super.identifier,
-      required super.panelOptions});
+      required super.panelOptions,
+      required super.widget});
 }
