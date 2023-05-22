@@ -44,13 +44,13 @@ class DashboardView extends StackedView<DashboardViewModel> {
           ),
           FloatingActionButton(
               child: const Icon(Icons.slideshow_outlined),
-              onPressed: () => viewModel.addElement()),
+              onPressed: () => viewModel.addElement2()),
           const SizedBox(
             width: 20,
           ),
           FloatingActionButton(
               child: const Icon(Icons.radar_sharp),
-              onPressed: () => viewModel.addElement()),
+              onPressed: () => viewModel.addElement3()),
         ],
       ),
     );

@@ -3,12 +3,12 @@ import 'package:niveles_formacion/data/model/dashboard_panel_item/dashboard_pane
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 
 class RadialGauge extends DashboardPanelItem {
-  RadialGauge(
-      {required super.width,
-      required super.height,
-      required super.identifier,
-      required super.panelOptions,
-      required super.widget});
+  RadialGauge({
+    required super.width,
+    required super.height,
+    required super.identifier,
+    required super.panelOptions,
+  });
 
   Widget build(BuildContext context) {
     return SafeArea(

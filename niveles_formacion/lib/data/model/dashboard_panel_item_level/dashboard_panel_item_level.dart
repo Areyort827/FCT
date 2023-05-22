@@ -1,10 +1,10 @@
 import 'package:niveles_formacion/data/model/dashboard_panel_item/dashboard_panel_item.dart';
 
 class DashboardPanelItemLevel extends DashboardPanelItem {
-  DashboardPanelItemLevel(
-      {required super.width,
-      required super.height,
-      required super.identifier,
-      required super.panelOptions,
-      required super.widget});
+  DashboardPanelItemLevel({
+    required super.width,
+    required super.height,
+    required super.identifier,
+    required super.panelOptions,
+  });
 }
